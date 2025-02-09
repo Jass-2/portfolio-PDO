@@ -273,11 +273,11 @@ $stmt = null;
         <div id="contact-hero-form" class="col-span-full m-col-start-7 m-col-end-13">
             <div class="form">
                 <!-- Added id="contact-form" -->
-                <form id="contact_form" action="" method="post">
-    <input class="input" name="fname" type="text" placeholder="First Name" required>
-    <input class="input" name="lname" type="text" placeholder="Last Name" required>
-    <input class="input" name="email" type="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Message" required></textarea>
+                <form id="contact_form" action="sendmail.php" method="post">
+    <input class="input" name="fname" type="text" placeholder="First Name">
+    <input class="input" name="lname" type="text" placeholder="Last Name">
+    <input class="input" name="email" type="email" placeholder="Email">
+    <textarea name="message" placeholder="Message"></textarea>
     <input id="send-button" name="submit" type="submit" value="Sent">
 </form>
 

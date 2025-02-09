@@ -5,7 +5,7 @@ import {
     initializeMainPageAnimations, 
     initializeCaseStudyAnimations 
 } from './scroll-animations.js';
-import { initializeContactForm } from './contact-form.js';
+// import { initializeContactForm } from './contact-form.js';
 import { initializeInfiniteScroll } from './infinite-scroll.js';
 
 (() => {

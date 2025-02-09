@@ -652,6 +652,41 @@ left: 100%;
 }
 
 
+//Thank you page
+.thanks-container {
+  width: 400px;
+  height: 250px;
+  margin: 10% auto;
+  text-align: center;
+  background: #6a0dad;
+  color: #000000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.thanks-title {
+  font-size: 2.5em;
+}
+
+.thanks-message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.thanks-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+}
+
+.thanks-button:hover {
+  background: #501a7a;
+}
+
+
 
 
 
